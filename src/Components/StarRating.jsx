@@ -7,17 +7,11 @@ const StarRating = ({ rating }) => {
 
   for (let i = 1; i <= 5; i++) {
     if (i <= rating) {
-      stars.push(
-        <img key={i} className='star' src='src/assets/icons/star-full.svg' />
-      );
+      stars.push(<img key={i} className='star' src='/star-full.svg' />);
     } else if (i === Math.ceil(rating) && !Number.isInteger(rating)) {
-      stars.push(
-        <img key={i} className='star' src='src/assets/icons/star-split.svg' />
-      );
+      stars.push(<img key={i} className='star' src='/star-split.svg' />);
     } else {
-      stars.push(
-        <img key={i} className='star' src='src/assets/icons/star-empty.svg' />
-      );
+      stars.push(<img key={i} className='star' src='/star-empty.svg' />);
     }
   }
   return <div className='star-rating'>{stars}</div>;
