@@ -1,0 +1,20 @@
+footer {
+  width: auto;
+  height: 57px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  margin-left: 168px;
+}
+.footer-right {
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 168px;
+}
