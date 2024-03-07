@@ -8,3 +8,35 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .category-card {
+    width: 100px;
+    height: 100px;
+    /* font-size: 10px; */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .category-card {
+    width: 75px;
+    min-width: 75px;
+    height: 75px;
+    font-size: 10px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .category-card {
+    width: 75px;
+    min-width: 75px;
+    height: 75px;
+    font-size: 10px;
+    margin: 3px;
+  }
+}

@@ -5,9 +5,11 @@ const Footer = () => {
   return (
     <footer>
       <div className='footer-left'>
-        <p>
-          ArtBookYelp &nbsp;|&nbsp; 123 Company Street &nbsp;|&nbsp; City 12345
-        </p>
+        <p>ArtBookYelp</p>
+        <p>&nbsp;|&nbsp;</p>
+        <p>123 Company Street</p>
+        <p>&nbsp;|&nbsp;</p>
+        <p>City 12345</p>
       </div>
       <div className='footer-right'>
         <p>Terms & Conditions</p>

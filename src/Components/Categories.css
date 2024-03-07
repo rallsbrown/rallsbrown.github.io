@@ -25,3 +25,28 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+} /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .categories {
+    margin-left: 83px;
+    margin-right: 83px;
+  }
+} /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .categories {
+    margin-left: 16px;
+    margin-right: 16px;
+    align-items: center;
+  }
+  .category-cards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

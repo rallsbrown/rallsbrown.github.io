@@ -4,7 +4,7 @@
   flex-direction: column;
   /* justify-content: space-evenly; */
   align-items: flex-start;
-  height: 675px;
+  height: auto;
   background-color: #ffffff;
   margin-left: 166px;
   margin-right: 166px;
@@ -37,4 +37,36 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .container {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .recent-activity-title {
+    font-size: 24px;
+    font-weight: 500px;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .cards {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+  }
 }

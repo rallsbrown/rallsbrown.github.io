@@ -8,8 +8,10 @@ const Header = () => {
       <div className='header-right'>
         {/* <span>write a review</span> */}
         <p className='review-link'>Write a Review</p>
-        <button className='login'>Login</button>
-        <button className='signUp'>Sign Up</button>
+        <div className='header-buttons'>
+          <button className='login'>Login</button>
+          <button className='signUp'>Sign Up</button>
+        </div>
       </div>
     </header>
   );

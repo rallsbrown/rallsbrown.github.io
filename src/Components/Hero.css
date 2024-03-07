@@ -41,3 +41,41 @@
   line-height: 120%; /* 28.8px */
   letter-spacing: 0.48px;
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: 100vw;
+    width: 100vw;
+  }
+  .play-button {
+    width: 70px;
+    margin-top: calc(25vw);
+  }
+  .hero-h1 {
+    width: 225px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  .join {
+    margin-top: 15px;
+    display: flex;
+    width: 221px;
+    padding: 8px 16px;
+  }
+  .join-text {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}

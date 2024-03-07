@@ -5,13 +5,14 @@
 }
 
 html {
-  /* width: 1440px; */
-  display: flex;
-  justify-content: center;
-  background-color: #cdcdcd;
+  /* display: flex;
+  justify-content: center; */
+  background-color: deeppink;
 }
 body {
-  width: 1440px;
+  display: flex;
+  justify-content: center;
+  width: auto;
   background-color: #ffffff;
 }
 /* :root {
