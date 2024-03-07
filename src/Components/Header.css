@@ -64,6 +64,7 @@ button {
   gap: 16px;
   /* border-radius: 25px; */
   border: 3px solid;
+  margin-left: 28px;
 }
 /*
 @media screen and (max-width: 376px) {
@@ -107,12 +108,15 @@ button {
     height: auto;
   }
   .header-right {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .name {
-    margin: 0;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 5px;
   }
   .review-link {
+    margin-top: 7px;
     margin-bottom: 3px;
   }
   button {
